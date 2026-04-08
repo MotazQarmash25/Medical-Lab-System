@@ -1,0 +1,190 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Node.js / npm
+node_modules/
+npm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Backend specific
+backend/node_modules/
+backend/npm-debug.log*
+backend/logs/
+backend/.env
+backend/.env.local
+backend/dist/
+backend/build/
+
+# HL7 Server
+hl7-server/node_modules/
+hl7-server/npm-debug.log*
+hl7-server/.env
+
+# Flutter / Dart / Mobile
+frontend_flutter/build/
+frontend_flutter/.dart_tool/
+frontend_flutter/.packages
+frontend_flutter/pubspec.lock
+frontend_flutter/.pub-cache/
+frontend_flutter/.pub/
+frontend_flutter/coverage/
+frontend_flutter/.idea/
+frontend_flutter/*.iml
+frontend_flutter/.flutter-plugins
+frontend_flutter/.flutter-plugins-dependencies
+
+# iOS
+frontend_flutter/ios/.symlinks/
+frontend_flutter/ios/.generated/
+frontend_flutter/ios/Flutter/Flutter.framework
+frontend_flutter/ios/Flutter/Flutter.podspec
+frontend_flutter/ios/Flutter/Generated.xcconfig
+frontend_flutter/ios/Flutter/ephemeral/
+frontend_flutter/ios/Flutter/app.flx
+frontend_flutter/ios/Flutter/app.zip
+frontend_flutter/ios/Flutter/flutter_assets/
+frontend_flutter/ios/Flutter/flutter_export_environment.sh
+frontend_flutter/ios/ServiceDefinitions.json
+frontend_flutter/ios/Runner/GeneratedPluginRegistrant.*
+frontend_flutter/ios/Pods/
+
+# Android
+frontend_flutter/android/.gradle/
+frontend_flutter/android/captures/
+frontend_flutter/android/gradlew
+frontend_flutter/android/gradlew.bat
+frontend_flutter/android/gradle-wrapper.jar
+frontend_flutter/android/local.properties
+frontend_flutter/android/.idea/
+frontend_flutter/android/*.iml
+frontend_flutter/android/app/debug
+frontend_flutter/android/app/profile
+frontend_flutter/android/app/release
+frontend_flutter/android/.gradle
+frontend_flutter/android/build/
+
+# macOS
+frontend_flutter/macos/Flutter/Flutter.framework
+frontend_flutter/macos/Flutter/Flutter.podspec
+frontend_flutter/macos/Flutter/flutter_export_environment.sh
+frontend_flutter/macos/Flutter/ephemeral/
+frontend_flutter/macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Linux
+frontend_flutter/linux/flutter/ephemeral/
+
+# Windows
+frontend_flutter/windows/flutter/ephemeral/
+frontend_flutter/windows/flutter/generated_plugins.cmake
+frontend_flutter/windows/flutter/generated_plugin_registrant.cmake
+
+# Web
+frontend_flutter/web/flutter_service_worker.js
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.AppleDouble
+.LSOverride
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.iml
+*.code-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+logs
+*.log
+log.txt
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Database backups
+*.dump
+*.bak
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Firebase (keep only configuration, not service accounts)
+*-service-account.json
+
+# Stripe keys (development only)
+.stripe/
+
+# IDE settings (personal configurations)
+.vscode/settings.json
+.idea/workspace.xml
+.idea/shelf
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/codeStyles/
+
+# OS specific
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python (if any Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+ENV/
+
+# Generated documentation
+docs/generated/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Lock files (optional - uncomment if you want to track them)
+# package-lock.json
+# pubspec.lock
